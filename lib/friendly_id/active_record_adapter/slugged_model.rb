@@ -23,9 +23,9 @@ module FriendlyId
 
       # Returns the friendly id, or if none is available, the numeric id. Note that this
       # method will use the cached_slug value if present, unlike {#friendly_id}.
-      def to_param
-        friendly_id_config.cache_column ? to_param_from_cache : to_param_from_slug
-      end
+      #def to_param
+      #  friendly_id_config.cache_column ? to_param_from_cache : to_param_from_slug
+      #end
 
       private
 
